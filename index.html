@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        body,html:{
+            margin:0;
+            padding:0;
+            height: 100%;
+        }
+        .cont{
+            height:100%;
+            background-color:black;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            background-color: #333;
+            text-align:center;
+            padding: 100px 100px;
+            border-radius: 20px;
+            border: 5px solid gold;
+        }
+        .box:hover{
+            transform: scale(1.05);
+        }
+        #profile{
+            height: 200px;
+            width:200px;
+            border-radius: 50%;
+            border: 2px solid gold;
+            
+        }
+        #profile:hover{
+            transform: scale(1.1)
+        }
+        button{
+            background-color: blueviolet;
+            color: white;
+            height: 50px;
+            width: 150px;
+            border-radius: 20px;
+            border: 2px solid gold;
+        }
+        #button:hover{
+            transform:scale(1.03);
+        }
+        h2{
+            color:white;
+            font-size:200%;
+        }
+        #l,#x,#g{
+            border-radius: 50%;
+            border: 2px solid gold;
+        }
+        #l:hover,#x:hover,#g:hover{
+            transform: scale(1.1)
+        }
+        .logo{
+            gap:;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="box">
+            <h2>Anjesh Nagar</h2>
+            <img  src="profilecard/images/anjesh linkdln photo.jpeg" alt="profile picture" id="profile"><br><br><br>
+            <a href="portfolio.html"><button id="button">view portfolio</button></a>
+            <button id="button">major projects</button>
+            <div class="logo">
+               <a href="https://www.linkedin.com/in/anjesh-nagar-2a020a320" target="_blank"> <img width="40" src="profilecard/images/linkdln logo.png" alt="linkdln img" id="l"></a>
+               <a href="https://x.com/AnjeshNagar07" target="_blank" ><img  width="40"src="profilecard/images/x logo.png" alt="X img"id="x"></a>
+                <a href="https://github.com/AnjeshNagar" target="_blank"><img width="40" src="profilecard/images/github logo.png" alt="github img"id="g"></a>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
